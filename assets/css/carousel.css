@@ -1,0 +1,44 @@
+/* Main carousel style */
+.big-carousel {
+    width: 90%;
+    margin-bottom: 0;
+}
+.big-carousel-2 {
+    width: 90%;
+    margin-bottom: 0;
+}
+.carousel {
+    width: 90%;
+}
+/* The controlsy */
+.carousel-control {
+    position:absolute;
+    top:10%;
+    left: -8%;
+    height: 40px;
+    width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+   
+}
+.carousel-control.right {
+    right: -8%;
+}
+/* The indicators */
+.carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+    background: #cecece;
+}
+.carousel-indicators .active {
+    background: #428bca;
+}
+.thumbnail{
+    cursor: pointer;
+}

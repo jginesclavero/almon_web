@@ -1,0 +1,25 @@
+@font-face {
+    font-family: CrackerJack;
+    src: url(../fonts/CrackerJack-Regular.otf);
+}
+
+#header h1{
+	font-family: CrackerJack;
+	font-size: 420%;
+}
+#empanadasText{
+	font-size: 80%;
+	text-align: justify; 
+}
+
+#pastelesText{
+	font-size: 80%;
+	text-align: justify;
+}
+
+#footerHeader h2{
+	color: rgba(110, 110, 110, 0.9);
+}
+#footerText, #footerText b{
+	color: rgba(110, 110, 110, 0.9);
+}

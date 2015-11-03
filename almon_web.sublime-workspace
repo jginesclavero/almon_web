@@ -1,0 +1,1019 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"id",
+				"idComp"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"header",
+				"header_cookies"
+			],
+			[
+				"in",
+				"insertword"
+			],
+			[
+				"s",
+				"scanner"
+			],
+			[
+				"for",
+				"forces"
+			],
+			[
+				"va",
+				"v_aux"
+			],
+			[
+				"v",
+				"v_aux"
+			],
+			[
+				"mo",
+				"moduleAttrac"
+			],
+			[
+				"an",
+				"angular_PID"
+			],
+			[
+				"ob",
+				"objectAux"
+			],
+			[
+				"force",
+				"forces_list"
+			],
+			[
+				"fo",
+				"forces_list"
+			],
+			[
+				"f",
+				"foundObject"
+			],
+			[
+				"is",
+				"isObject"
+			],
+			[
+				"jon",
+				"tfg_jonathan_gines"
+			],
+			[
+				"forc",
+				"forces_msg"
+			],
+			[
+				"fr",
+				"forces_msg"
+			],
+			[
+				"pu",
+				"push_back"
+			],
+			[
+				"Y",
+				"Y_ORIGIN"
+			],
+			[
+				"X",
+				"X_ORIGIN"
+			],
+			[
+				"odo",
+				"odoV"
+			],
+			[
+				"od",
+				"odoV"
+			],
+			[
+				"re",
+				"repulsionV"
+			],
+			[
+				"nav",
+				"nav_msgs"
+			],
+			[
+				"modu",
+				"moduleB"
+			],
+			[
+				"m",
+				"meanAngle"
+			],
+			[
+				"repul",
+				"repulsion_module"
+			],
+			[
+				"Obj",
+				"ObjectParams"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"curso",
+				"cursorArray"
+			],
+			[
+				"lang",
+				"language"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"le",
+				"level"
+			],
+			[
+				"mon",
+				"mongodb"
+			],
+			[
+				"lo",
+				"loadingGif"
+			],
+			[
+				"rom",
+				"roomNumber"
+			],
+			[
+				"roo",
+				"roomNumber"
+			],
+			[
+				"ro",
+				"roomNumber"
+			],
+			[
+				"la",
+				"lang2"
+			],
+			[
+				"user",
+				"usersArray"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"pas",
+				"passConfirm"
+			],
+			[
+				"se",
+				"seclanguage"
+			],
+			[
+				"js",
+				"js"
+			],
+			[
+				"em",
+				"emailconfirm"
+			],
+			[
+				"ema",
+				"email"
+			],
+			[
+				"au",
+				"authOK"
+			],
+			[
+				"jonathan",
+				"Jonathan"
+			],
+			[
+				"prin",
+				"printf	printf …"
+			],
+			[
+				"me",
+				"meanDistance"
+			],
+			[
+				"ver",
+				"verboseMode"
+			],
+			[
+				"deb",
+				"debugMode"
+			],
+			[
+				"MA",
+				"MAXSIZE"
+			],
+			[
+				"mea",
+				"meanAngle"
+			],
+			[
+				"ma",
+				"matrix"
+			],
+			[
+				"pr",
+				"printf	printf …"
+			],
+			[
+				"Scan",
+				"scan_time"
+			],
+			[
+				"ga",
+				"gameTogo"
+			],
+			[
+				"gam",
+				"gameTogo"
+			],
+			[
+				"ind",
+				"indexFin"
+			],
+			[
+				"ins",
+				"indexSt"
+			],
+			[
+				"hi",
+				"history"
+			],
+			[
+				"ha",
+				"handlerOff"
+			],
+			[
+				"fi",
+				"finishGame"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"nu",
+				"numGame"
+			],
+			[
+				"save",
+				"saveHistory"
+			],
+			[
+				"radio",
+				"radio4"
+			],
+			[
+				"sh",
+				"showTypeGame"
+			],
+			[
+				"sav",
+				"saveHistory"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ch",
+				"checkScreen"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"get",
+				"getJson"
+			],
+			[
+				"di",
+				"difficult"
+			],
+			[
+				"his",
+				"historyCallback"
+			],
+			[
+				"han",
+				"handlerOff"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"inde",
+				"indexList"
+			],
+			[
+				"y",
+				"yourScore"
+			],
+			[
+				"Ma",
+				"MAX_SCORE"
+			],
+			[
+				"CON",
+				"CONST_LAT"
+			],
+			[
+				"lat",
+				"latlng"
+			],
+			[
+				"p",
+				"picturesDiv"
+			],
+			[
+				"T",
+				"TIME_DIFFICULT"
+			],
+			[
+				"li",
+				"linkList"
+			],
+			[
+				"pla",
+				"placeList"
+			],
+			[
+				"pl",
+				"placeList"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"Ty",
+				"TYPE_GAME1"
+			],
+			[
+				"TY",
+				"TYPE_GAME1"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"radi",
+				"radio1"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"c",
+				"checked"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"SHA",
+				"SHA512_DIGEST_LENGTH"
+			],
+			[
+				"has",
+				"hash_out"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"time",
+				"timeline"
+			],
+			[
+				"he",
+				"hearth_go"
+			],
+			[
+				"stone",
+				"stone_array"
+			],
+			[
+				"pri",
+				"princessesCaught"
+			],
+			[
+				"SH",
+				"SHA512_DIGEST_LENGTH"
+			],
+			[
+				"file",
+				"file_to_check"
+			],
+			[
+				"E",
+				"EMSASHA512ID"
+			],
+			[
+				"RSA",
+				"RSA_key"
+			],
+			[
+				"R",
+				"RSA_key"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 23172,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/carousel.css",
+			"settings":
+			{
+				"buffer_size": 771,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/personal.css",
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/carousel.js",
+			"settings":
+			{
+				"buffer_size": 358,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: pi",
+				"Package Control: Create Package File"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jonathan/Aloneinthelab/Almon_Web/test/test.js",
+		"/home/jonathan/Aloneinthelab/Almon_Web/assets/css/main.css",
+		"/home/jonathan/Aloneinthelab/Almon_Web/test/test.css",
+		"/home/jonathan/Aloneinthelab/Almon_Web/test/index.html",
+		"/home/jonathan/AT_Ejercicios/Bootstrap/X-Nav-Bootstrap-Concurso/index.html",
+		"/home/jonathan/Aloneinthelab/Almon_Web/assets/css/carousel.css",
+		"/home/jonathan/Aloneinthelab/Almon_Web/assets/css/personal.css",
+		"/home/jonathan/AT_Ejercicios/Bootstrap/X-Nav-Bootstrap-Concurso/assets/css/styles.css",
+		"/home/jonathan/Aloneinthelab/Almon_Web/assets/js/carousel.js",
+		"/home/jonathan/Aloneinthelab/Almon_Web/assets/js/bootstrap.min.js",
+		"/home/jonathan/Aloneinthelab/Almon_Web/assets/fonts/CrackerJack-Regular.ttf",
+		"/home/jonathan/go/src/countwords/countwords.go",
+		"/home/jonathan/.config/sublime-text-2/Packages/User/sftp_servers/config.json",
+		"/home/jonathan/catkin_ws/src/turtlebot_arm/turtlebot_arm_bringup/launch/arm.launch",
+		"/home/jonathan/.bashrc",
+		"/home/jonathan/catkin_ws/src/turtlebot_arm/turtlebot_arm_bringup/config/turtlebot_arm.yaml",
+		"/home/jonathan/catkin_ws/src/test_arm/CMakeLists.txt",
+		"/home/jonathan/catkin_ws/src/pan_tilt/package.xml",
+		"/home/jonathan/catkin_ws/src/pan_tilt/CMakeLists.txt",
+		"/home/jonathan/catkin_ws/src/test_arm/package.xml",
+		"/home/jonathan/turtlebot/src/turtlebot/turtlebot_description/urdf/turtlebot_gazebo.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/urdf/turtlebot_properties.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/urdf/d46.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/flir_ptu_description/urdf/example.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/urdf/asus_xtion_pro.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/urdf/flir_ptu.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/launch/kobuki_hokuyo_real.launch",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/robot/kobuki_hokuyo_model.urdf.xacro",
+		"/opt/ros/hydro/lib/arbotix_python/controllerGUI.py",
+		"/home/jonathan/.ros/camera_info/rgb_PS1080_PrimeSense.yaml",
+		"/home/jonathan/.ros/camera_info/depth_PS1080_PrimeSense.yaml",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/CMakeLists.txt",
+		"/home/jonathan/catkin_ws/src/uvc_camera/package.xml",
+		"/home/jonathan/catkin_ws/src/test_pkg/package.xml",
+		"/home/jonathan/catkin_ws/src/test_pkg/CMakeLists.txt",
+		"/home/jonathan/catkin_ws/src/test_pkg/Makefile",
+		"/tmp/turtlebot.gv",
+		"/home/jonathan/catkin_ws/src/urdfdom/README.md",
+		"/home/jonathan/catkin_ws/src/CMakeLists.txt",
+		"/home/jonathan/catkin_ws/src/urdfdom/CMakeLists.txt",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/urdf/kobuki_hokuyo.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/launch/kobuki_hokuyo_sim.launch",
+		"/home/jonathan/catkin_ws/robotica/launch/kobuki_sim.launch",
+		"/home/jonathan/catkin_ws/robotica/src/perception_node.cpp",
+		"/home/jonathan/catkin_ws/robotica/src/worldmodel_node.cpp",
+		"/home/jonathan/catkin_ws/robotica/src/localization_node.cpp",
+		"/home/jonathan/catkin_ws/robotica/src/behavior_node.cpp",
+		"/home/jonathan/catkin_ws/src/flir_ptu_driver/launch/ptu.launch",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/launch/kobuki_hokuyo.launch",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/urdf/hokuyo.urdf.xacro",
+		"/home/jonathan/catkin_ws/robotica/robot/kobuki_hexagons_asus_xtion_pro.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/meshes/hokuyo.dae",
+		"/home/jonathan/catkin_ws/robotica/urdf/asus_xtion_pro.urdf.xacro",
+		"/home/jonathan/turtlebot/src/turtlebot/turtlebot_description/urdf/sensors/kinect.urdf.xacro",
+		"/home/jonathan/catkin_ws/robotica/urdf/turtlebot_properties.urdf.xacro",
+		"/home/jonathan/catkin_ws/robotica/launch/kobuki_real.launch",
+		"/home/jonathan/turtlebot/src/kobuki/kobuki_description/urdf/kobuki.urdf.xacro",
+		"/home/jonathan/turtlebot/src/turtlebot_viz/turtlebot_rviz_launchers/launch/view_model.launch",
+		"/home/jonathan/turtlebot/src/turtlebot/turtlebot_description/urdf/turtlebot_properties.urdf.xacro",
+		"/home/jonathan/turtlebot/src/turtlebot_create/create_description/urdf/create_gazebo.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/.gitignore",
+		"/home/jonathan/catkin_ws/src/practica1/src/bumpgo_kobuki_node.cpp",
+		"/home/jonathan/catkin_ws/src/bicaacademy/src/components/siguelineas/siguelineascomp.cpp",
+		"/home/jonathan/catkin_ws/src/bicaacademy/src/components/siguelineas/siguelineas.cpp",
+		"/home/jonathan/catkin_ws/src/bicaacademy/src/components/siguelineas/giralineas.cpp",
+		"/home/jonathan/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/package.xml",
+		"/home/jonathan/catkin_ws/src/tfg_jonathan_gines/msg/Forces.msg",
+		"/home/jonathan/catkin_ws/src/vff/src/navigation.cpp",
+		"/home/jonathan/catkin_ws/tfg_jonathan_gines/urdf/hokuyo.urdf.xacro",
+		"/home/jonathan/catkin_ws/tfg_jonathan_gines/launch/kobuki_hokuyo.launch",
+		"/home/jonathan/catkin_ws/tfg_jonathan_gines/robot/kobuki_hokuyo.urdf.xacro",
+		"/home/jonathan/catkin_ws/proyecto_Jonathan_Gines/urdf/hokuyo.urdf.xacro",
+		"/home/jonathan/catkin_ws/proyecto_Jonathan_Gines/launch/kobuki_hokuyo.launch",
+		"/home/jonathan/catkin_ws/proyecto_Jonathan_Gines/robot/kobuki_hokuyo.urdf.xacro",
+		"/opt/ros/hydro/share/kobuki_description/urdf/kobuki_standalone.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/kobuki_desktop-hydro/kobuki_gazebo/launch/includes/robot.launch.xml",
+		"/opt/ros/hydro/share/kobuki_description/urdf/kobuki.urdf.xacro",
+		"/opt/ros/hydro/share/kobuki_description/urdf/sensors/hokuyo_utm30lx.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/kobuki_desktop-hydro/kobuki_rviz_launchers/rviz/robot.rviz",
+		"/opt/ros/hydro/share/kobuki_description/urdf/kobuki_gazebo.urdf.xacro",
+		"/home/jonathan/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera_utils.cpp",
+		"/home/jonathan/catkin_ws/home/jonathan/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_camera_utils.cpp",
+		"/home/jonathan/catkin_ws/src/kobuki_gazebo/launch/kobuki_empty_world.launch",
+		"/opt/ros/hydro/include/opencv2/core/core.hpp",
+		"/home/jonathan/.gazebo/models/turtlebot/model.sdf",
+		"/opt/ros/hydro/include/opencv2/core/core_c.h",
+		"/home/jonathan/Robotica/src/practica1/src/bumpgo_kobuki_node .cpp",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/public/js/rooms/main.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/public/js/lib/sonic.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/public/css/styles.css",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/public/js/rooms/init.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/app/routes.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/parteAvila/js/main.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/parteAvila/js/init.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/parteAvila/room.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/parteAvila/index.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/room.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/indexRoom.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/parteAvila/multiserver.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/config/sockets.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/package.json",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/public/js/signup.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/signup.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/app/models/user.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/config/passport.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/home.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/config/database.js",
+		"/home/jonathan/Aloneinthelab/Heroku/node-js-getting-started/package.json",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/login.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/model/account.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/model/user.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/signup.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/routes/index.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/db.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/init.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/login.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/model/Comment.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/model/Post.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/test/server(con node-static).js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/js/login.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/index.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/css/styles.css",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/js/signup.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/routes/index.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/model/user.js",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/singup.html",
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/db.js"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"refrigerados",
+			"carousel",
+			"                  		<",
+			"Carousel",
+			"250x250",
+			"carouselDiv",
+			"box alt container",
+			"/>\n",
+			"overlay",
+			"footer",
+			"pdf",
+			"topic",
+			"<sensor_asus_xtion_pro",
+			"base_foot",
+			"ptu_mount",
+			"camera_rgb_frame",
+			"}*/\n",
+			"found",
+			"isObje",
+			"math",
+			"nav",
+			"print",
+			"CameraInfo",
+			"arrowed",
+			"line",
+			"atrac",
+			"addingVectors",
+			"coherente",
+			"  \n",
+			"language",
+			"socket",
+			"app",
+			"socket",
+			"'));\n",
+			"app",
+			"      ",
+			"sing",
+			"signupModal",
+			"sing",
+			"LWDI",
+			"lenguagetolearn",
+			"lf",
+			"	$",
+			"present",
+			"console",
+			"alert",
+			"numGa",
+			"gameToGo",
+			"finishgame",
+			"));",
+			"score",
+			"scoreCalc",
+			");\n",
+			"startGame",
+			"// ",
+			");\n",
+			"70",
+			"nextButton",
+			"%;\n",
+			">\n",
+			"writ",
+			"prin",
+			",",
+			",\n",
+			"\n",
+			",\n",
+			");\n",
+			"7",
+			"':",
+			");\n",
+			"figcaption",
+			"		\n",
+			"].",
+			"princes",
+			"mallo",
+			"INcorrecto",
+			",\n",
+			";\n",
+			");\n",
+			"gcc -Wall -g sign.c -lssl -lcrypto -o sign",
+			"){\n",
+			"memcpy",
+			"bk",
+			"                            <",
+			"button",
+			"coll",
+			"screens",
+			"scree",
+			"screens",
+			"screen",
+			"revie",
+			"featu",
+			"herra",
+			"about",
+			"\">\n",
+			"block",
+			"Ss",
+			" #",
+			"elemen",
+			"featu",
+			"@ico",
+			"@font",
+			"fa-hea",
+			"flir_sus",
+			"m_join_sub",
+			");\n",
+			"number of",
+			"m_joint",
+			"getReso",
+			"width",
+			"Áá",
+			"printf",
+			"fprint",
+			"could not",
+			"/dev",
+			"ROS_INFO",
+			");\n",
+			";\n",
+			"num2",
+			"avia-font",
+			"; ",
+			"font",
+			"\"header_main_alternate\"",
+			"\"header_main_alternate\" class=\"container_wrap\">",
+			"div id=\"header_main_alternate\" class=\"container_wrap\">",
+			"container",
+			"avia_text",
+			"h3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".",
+			"",
+			"."
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 23172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14883,
+								14883
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4939.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/carousel.css",
+					"settings":
+					{
+						"buffer_size": 771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								771,
+								771
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/personal.css",
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/js/carousel.js",
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
