@@ -4,16 +4,40 @@
 		"selected_items":
 		[
 			[
+				"i",
+				"isempty"
+			],
+			[
+				"a",
+				"add"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
 				"pa",
 				"padding-right"
 			],
 			[
 				"id",
 				"idComp"
-			],
-			[
-				"te",
-				"text-indent"
 			],
 			[
 				"fon",
@@ -308,10 +332,6 @@
 				"checkScreen"
 			],
 			[
-				"bo",
-				"bottom"
-			],
-			[
 				"get",
 				"getJson"
 			],
@@ -326,10 +346,6 @@
 			[
 				"han",
 				"handlerOff"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"inde",
@@ -467,8 +483,73 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 23172,
+				"buffer_size": 11899,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contact.php",
+			"settings":
+			{
+				"buffer_size": 524,
+				"line_ending": "Unix",
+				"name": "[php]"
+			}
+		},
+		{
+			"file": "/home/jonathan/.gvfs/SFTP para jgines en gamma07.aulas.gsyc.es/home/al-11-12/jgines/go/src/sems/sems.go",
+			"settings":
+			{
+				"buffer_size": 1694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jonathan/.gvfs/SFTP para jgines en gamma07.aulas.gsyc.es/home/al-11-12/jgines/go/src/semsmain.go",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/navbar.js",
+			"settings":
+			{
+				"buffer_size": 1428,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/carousel.js",
+			"settings":
+			{
+				"buffer_size": 13944,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/navbar.css",
+			"settings":
+			{
+				"buffer_size": 2381,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "carousel_recortes.html",
+			"settings":
+			{
+				"buffer_size": 14265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 50166,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -483,15 +564,7 @@
 			"file": "assets/css/personal.css",
 			"settings":
 			{
-				"buffer_size": 267,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/js/carousel.js",
-			"settings":
-			{
-				"buffer_size": 358,
+				"buffer_size": 876,
 				"line_ending": "Unix"
 			}
 		}
@@ -532,6 +605,11 @@
 	},
 	"file_history":
 	[
+		"/etc/apache2/sites-available/default",
+		"/etc/apache2/apache2.conf",
+		"/home/jonathan/.gvfs/SFTP para jgines en gamma17.aulas.gsyc.es/home/al-11-12/jgines/go/src/sems/sems.go",
+		"/home/jonathan/.gvfs/SFTP para jgines en gamma17.aulas.gsyc.es/home/al-11-12/jgines/go/src/semsmain.go",
+		"/home/jonathan/Aloneinthelab/almon_web/assets/js/map.js",
 		"/home/jonathan/Aloneinthelab/Almon_Web/test/test.js",
 		"/home/jonathan/Aloneinthelab/Almon_Web/assets/css/main.css",
 		"/home/jonathan/Aloneinthelab/Almon_Web/test/test.css",
@@ -654,12 +732,7 @@
 		"/home/jonathan/Aloneinthelab/Heroku/webTest/test/server(con node-static).js",
 		"/home/jonathan/Aloneinthelab/Heroku/webTest/js/login.js",
 		"/home/jonathan/Aloneinthelab/Heroku/webTest/index.html",
-		"/home/jonathan/Aloneinthelab/Heroku/webTest/css/styles.css",
-		"/home/jonathan/Aloneinthelab/Heroku/webTest/js/signup.js",
-		"/home/jonathan/Aloneinthelab/Heroku/webTest/routes/index.js",
-		"/home/jonathan/Aloneinthelab/Heroku/webTest/model/user.js",
-		"/home/jonathan/Aloneinthelab/Heroku/webTest/singup.html",
-		"/home/jonathan/Aloneinthelab/Heroku/webTest/db.js"
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/css/styles.css"
 	],
 	"find":
 	{
@@ -677,6 +750,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fmt",
+			"window",
+			"rgba",
+			"navbar",
+			"text-deco",
+			"border-style",
+			"borde",
+			"nav",
+			"'+",
+			"\n'<",
+			"submit",
+			"style",
+			"fur",
+			"coo",
+			"md",
+			"\">\n",
+			"responsive",
 			"refrigerados",
 			"carousel",
 			"                  		<",
@@ -787,24 +877,7 @@
 			"m_joint",
 			"getReso",
 			"width",
-			"Áá",
-			"printf",
-			"fprint",
-			"could not",
-			"/dev",
-			"ROS_INFO",
-			");\n",
-			";\n",
-			"num2",
-			"avia-font",
-			"; ",
-			"font",
-			"\"header_main_alternate\"",
-			"\"header_main_alternate\" class=\"container_wrap\">",
-			"div id=\"header_main_alternate\" class=\"container_wrap\">",
-			"container",
-			"avia_text",
-			"h3"
+			"Áá"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -825,7 +898,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -833,15 +906,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 23172,
+						"buffer_size": 11899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14883,
-								14883
+								9751,
+								9751
 							]
 						],
 						"settings":
@@ -850,16 +923,260 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4939.0,
+						"translation.y": 4446.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "contact.php",
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								524,
+								524
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[php]",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/jonathan/.gvfs/SFTP para jgines en gamma07.aulas.gsyc.es/home/al-11-12/jgines/go/src/sems/sems.go",
+					"settings":
+					{
+						"buffer_size": 1694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1694,
+								1694
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Go/Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/jonathan/.gvfs/SFTP para jgines en gamma07.aulas.gsyc.es/home/al-11-12/jgines/go/src/semsmain.go",
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Go/Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/js/navbar.js",
+					"settings":
+					{
+						"buffer_size": 1428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/js/carousel.js",
+					"settings":
+					{
+						"buffer_size": 13944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6871,
+								6871
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3780.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/css/navbar.css",
+					"settings":
+					{
+						"buffer_size": 2381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "carousel_recortes.html",
+					"settings":
+					{
+						"buffer_size": 14265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1344,
+								1344
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/css/main.css",
+					"settings":
+					{
+						"buffer_size": 50166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44653,
+								44653
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 48527.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "assets/css/carousel.css",
 					"settings":
 					{
@@ -890,19 +1207,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 10,
 					"file": "assets/css/personal.css",
 					"settings":
 					{
-						"buffer_size": 267,
+						"buffer_size": 876,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								265,
-								265
+								871,
+								871
 							]
 						],
 						"settings":
@@ -910,39 +1227,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/js/carousel.js",
-					"settings":
-					{
-						"buffer_size": 358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								138,
-								138
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
