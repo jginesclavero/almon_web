@@ -55,3 +55,6 @@ a.nounderline{
 	width: 50%; 
 	text-align: center;
 }
+#empresa section p{
+	text-align: justify;
+}

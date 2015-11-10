@@ -17,9 +17,9 @@ $(document).ready(function() {
 '<div class="collapse navbar-collapse" id="navbar-collapse-1">'+
 '<ul class="nav navbar-nav navbar-right">'+
 '<li><a class="nounderline" onclick="resetCenterBox()" href="#">Home</a></li>'+
-'<li><a class="nounderline" href="#mayoristas">Mayoristas</a></li>'+
-'<li><a class="nounderline" href="#particulares">Particulares</a></li>'+
-'<li><a class="nounderline" href="#">Sobre Nosotros</a></li>'+
+'<li><a class="nounderline" onclick="resetCenterBox()" href="#mayoristas">Mayoristas</a></li>'+
+'<li><a class="nounderline" onclick="resetCenterBox()" href="#particulares">Particulares</a></li>'+
+'<li><a class="nounderline" href="#empresa">Sobre Nosotros</a></li>'+
 '<li><a class="nounderline" href="#contacto">Contacto</a></li>'+
 '</ul>'+
 '</div><!-- /.navbar-collapse -->'+
