@@ -21,6 +21,7 @@ $(document).ready(function() {
 '<li><a class="nounderline" onclick="resetCenterBox()" href="#particulares">Particulares</a></li>'+
 '<li><a class="nounderline" href="#empresa">Sobre Nosotros</a></li>'+
 '<li><a class="nounderline" href="#contacto">Contacto</a></li>'+
+'<li><a href="https://www.facebook.com/productosa2" class="icon fa-facebook"><span class="label">Facebook</span></a></li>'+
 '</ul>'+
 '</div><!-- /.navbar-collapse -->'+
 '</div><!-- /.container -->');

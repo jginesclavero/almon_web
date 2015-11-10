@@ -7,7 +7,7 @@ function changePhoto(src,id){
 }
 
 function proffesionalSection(){
-	$("#centerBox").html('<div class="container" id="carouselDiv"><div class="col-md-8"><div class="big-carousel slide article-slide" id="article-photo-carousel">'+
+	$("#centerBox").html('<div class="container" id="carouselDiv" style="padding-top:10%;"><div class="col-md-8"><div class="big-carousel slide article-slide" id="article-photo-carousel">'+
 		'<!-- Wrapper for slides --><div class="carousel-inner cont-slider">'+
 		'<div class="item parent active" id="itemActive0"><img alt="" title="" src="images/profesionales/1.jpg"></div>'+
 		'<div class="item parent 1"><img alt="" title="" src="images/profesionales/2.jpg"></div>'+
@@ -89,7 +89,7 @@ function proffesionalSection(){
 function individualSection(){
 	$("#centerBox").html(
 //Carousel2
-'<div class="container" id="carouselDiv">'+
+'<div class="container" id="carouselDiv" style="padding-top:10%;">'+
 '<div class="col-md-4">'+
 '<div class="content" id="pastelesText">'+
 '<h3>Tartas y pasteles</h3>'+
