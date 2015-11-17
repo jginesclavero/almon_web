@@ -61,7 +61,8 @@ a.nounderline{
 
 #especialNavidad{
 	font-size: 60%;
-	margin-top: 5%;
+	margin-top: -5%;
+	padding: 0;
 }
 
 img.resize{

@@ -5,7 +5,7 @@ $(document).ready(function() {
       $('#nav_bar').addClass('navbar-fixed-top');
       $('#nav_bar').html('<div class="container"><!-- Brand and toggle get grouped for better mobile display -->'+
 '<div class="navbar-header">'+
-'<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">'+
+'<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#carouselDivRoscones">'+
 '<span class="sr-only">Toggle navigation</span>'+
 '<span class="icon-bar"></span>'+
 '<span class="icon-bar"></span>'+
@@ -18,11 +18,11 @@ $(document).ready(function() {
 '<!-- Collect the nav links, forms, and other content for toggling -->'+
 '<div class="collapse navbar-collapse" id="navbar-collapse-1">'+
 '<ul class="nav navbar-nav navbar-right">'+
-'<li><input type="button" value="Especial Navidad" id="especialNavidad"/></li>'+
-'<li><a class="nounderline" onclick="resetCenterBox()" href="#mayoristas">Mayoristas</a></li>'+
-'<li><a class="nounderline" onclick="resetCenterBox()" href="#particulares">Particulares</a></li>'+
-'<li><a class="nounderline" href="#empresa">Empresa</a></li>'+
-'<li><a class="nounderline" href="#contacto">Contacto</a></li>'+
+'<li><a class="navbar nounderline" href="#carouselDivRoscones"><input type="button" value="Especial Navidad" id="especialNavidad"/></a></li>'+
+'<li><a class="navbar nounderline" onclick="resetCenterBox()" href="#mayoristas">Mayoristas</a></li>'+
+'<li><a class="navbar nounderline" onclick="resetCenterBox()" href="#particulares">Particulares</a></li>'+
+'<li><a class="navbar nounderline" href="#empresa">Empresa</a></li>'+
+'<li><a class="navbar nounderline" href="#contacto">Contacto</a></li>'+
 '<li><a href="https://www.facebook.com/productosa2" class="icon fa-facebook"><span class="label">Facebook</span></a></li>'+
 '</ul>'+
 '</div><!-- /.navbar-collapse -->'+
@@ -37,7 +37,7 @@ $(document).ready(function() {
       $('#nav_bar').removeClass('navbar-fixed-top');
     }
 
-    /*$('a[href*=#]').click(function() {
+    $('a.navbar[href*=#]').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
       && location.hostname == this.hostname) {
              var $target = $(this.hash);
@@ -48,6 +48,6 @@ $(document).ready(function() {
                  return false;
             }
        }
-   });*/
+   });
   });
 });
