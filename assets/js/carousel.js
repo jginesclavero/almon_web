@@ -93,10 +93,60 @@ function proffesionalSection(){
 	$('.carousel').carousel({
   		interval: false
 	});
+	if($(window).width() < 680){
+		$('.left').css({"margin-left":"-5%","margin-top":"-3%"})
+		$('.right').css({"margin-right":"-5%","margin-top":"-3%"})
+	}
 }
 
 function individualSection(){
 	$("#centerBox").html(
+
+		'<div class="container" id="carouselDiv" style="padding-top:10%;"><div class="col-md-8"><div class="big-carousel-3 slide article-slide" id="article-photo-carousel">'+
+		'<!-- Wrapper for slides --><div class="carousel-inner cont-slider">'+
+		'<div class="item parent active" id="itemActive0" data-slide-number="0"><img alt="" title="" src="images/particulares/empanadas/1.jpg"></div>'+
+		'<div class="item parent 1" data-slide-number="1"><img alt="" title="" src="images/particulares/empanadas/2.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="2"><img alt="" title="" src="images/particulares/empanadas/3.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="3"><img alt="" title="" src="images/particulares/empanadas/4.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="4"><img alt="" title="" src="images/particulares/empanadas/5.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="5"><img alt="" title="" src="images/particulares/empanadas/6.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="6"><img alt="" title="" src="images/particulares/empanadas/7.jpg"></div>'+
+    	'</div></div>'+
+
+    	'<div id="Carousel4" class="carousel slide"><!-- Carousel items --><div class="carousel-inner"><div class="item active"><div class="row">'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-0" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/1.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-1" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/2.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-2" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/3.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-3" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/4.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'</div><!--.row--></div><!--.item-->'+
+		'<div class="item"><div class="row">'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-4" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/5.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-5" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/6.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-6" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/7.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'</div><!--.row-->'+
+		'</div><!--.item-->'+
+		'</div><!--.carousel-inner-->'+
+		'<a data-slide="prev" href="#Carousel4" class="left carousel-control">'+
+		'<i class="fa fa-arrow-left"></i></a>'+
+		'<a data-slide="next" href="#Carousel4" class="right carousel-control">'+
+		'<i class="fa fa-arrow-right"></i></a>'+
+		'<ol class="carousel-indicators">'+
+		'<li data-target="#Carousel4" data-slide-to="0" class="active"></li>'+
+		'<li data-target="#Carousel4" data-slide-to="1"></li>'+
+		'</ol></div><!--.Carousel-->'+  
+		'</div>'+
+		'<div class="col-md-4">'+
+		'<div class="content" id="empanadasText">'+
+		'<h3>Empanadas</h3>'+
+		'<p><b>Empanadas refrigeradas</b>: Disponemos de una gran variedad de <b>tamaños y de sabores</b>. Empanada de 1/2 kg, 1 kg y 2,5 kg con sabores como: <b>atún</b>, jamon y queso,<b> bacon y queso</b>'+
+		', bacon y chorizo, bacalao, pulpo, pollo y <b>pollo a la barbacoa</b>, salmón y queso philadelphia, gambas o carne picada. Pruebe tambien nuestra '+
+		'<b>empanada gallega de atun </b> de 2,5 kg . O si lo prefiere empanadilla de atun de 240 gramos  <b>¡Inigualábles!</b></p>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+
+
+
 //Carousel2
 '<div class="container" id="carouselDiv" style="padding-top:10%;">'+
 '<div class="col-md-4">'+
@@ -466,6 +516,11 @@ function individualSection(){
 	$('.carousel').carousel({
   		interval: false
 	});
+
+	if($(window).width() < 680){
+		$('.left').css({"margin-left":"-5%","margin-top":"-3%"})
+		$('.right').css({"margin-right":"-5%","margin-top":"-3%"})
+	}
 }
 
 
