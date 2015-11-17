@@ -1,7 +1,8 @@
 function changePhoto(id,n){
 	var id_selector;
 	var id_selector_parse;
-	id_selector= id.substr(id.length -1);
+	id_selector= id.substr(id.length -2);
+	id_selector = id_selector.replace('-','');
     id_selector_parse = parseInt(id_selector);
 	if(n==1){
         $('.big-carousel').carousel(id_selector_parse);
@@ -49,7 +50,7 @@ function proffesionalSection(){
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'<div class="item"><div class="row">'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"  id="carousel-selector-" onclick="changePhoto(id,1)"><img src="images/profesionales/9.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-8" onclick="changePhoto(id,1)"><img src="images/profesionales/9.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-9" onclick="changePhoto(id,1)"><img src="images/profesionales/10.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-10" onclick="changePhoto(id,1)"><img src="images/profesionales/11.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-11" onclick="changePhoto(id,1)"><img src="images/profesionales/12.jpg" alt="Image" style="max-width:100%;"></a></div>'+
