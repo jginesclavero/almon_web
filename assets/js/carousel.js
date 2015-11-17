@@ -1,57 +1,65 @@
-function changePhoto(src,id){
-	if(id==1){
-		$(".active.parent.1 img").attr('src',src);
-	}else if(id==2){
-		$(".active.parent.2 img").attr('src',src);
+function changePhoto(id,n){
+	var id_selector;
+	var id_selector_parse;
+	id_selector= id.substr(id.length -1);
+    id_selector_parse = parseInt(id_selector);
+	if(n==1){
+        $('.big-carousel').carousel(id_selector_parse);
+	}else if(n==2){
+        $('.big-carousel-2').carousel(id_selector_parse);
+    }else if(n==3){
+        $('.big-carousel-3').carousel(id_selector_parse);
+	}else if(n==4){
+        $('.big-carousel-3').carousel(id_selector_parse);
 	}
 }
 
 function proffesionalSection(){
 	$("#centerBox").html('<div class="container" id="carouselDiv" style="padding-top:10%;"><div class="col-md-8"><div class="big-carousel slide article-slide" id="article-photo-carousel">'+
 		'<!-- Wrapper for slides --><div class="carousel-inner cont-slider">'+
-		'<div class="item parent active" id="itemActive0"><img alt="" title="" src="images/profesionales/1.jpg"></div>'+
-		'<div class="item parent 1"><img alt="" title="" src="images/profesionales/2.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/3.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/4.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/5.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/6.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/7.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/8.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/9.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/10.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/11.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/12.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/13.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/14.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/15.jpg"></div>'+
-    	'<div class="item parent 1"><img alt="" title="" src="images/profesionales/16.jpg"></div>'+
+		'<div class="item parent active" id="itemActive0" data-slide-number="0"><img alt="" title="" src="images/profesionales/1.jpg"></div>'+
+		'<div class="item parent 1" data-slide-number="1"><img alt="" title="" src="images/profesionales/2.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="2"><img alt="" title="" src="images/profesionales/3.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="3"><img alt="" title="" src="images/profesionales/4.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="4"><img alt="" title="" src="images/profesionales/5.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="5"><img alt="" title="" src="images/profesionales/6.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="6"><img alt="" title="" src="images/profesionales/7.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="7"><img alt="" title="" src="images/profesionales/8.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="8"><img alt="" title="" src="images/profesionales/9.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="9"><img alt="" title="" src="images/profesionales/10.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="10"><img alt="" title="" src="images/profesionales/11.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="11"><img alt="" title="" src="images/profesionales/12.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="12"><img alt="" title="" src="images/profesionales/13.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="13"><img alt="" title="" src="images/profesionales/14.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="14"><img alt="" title="" src="images/profesionales/15.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="15"><img alt="" title="" src="images/profesionales/16.jpg"></div>'+
     	'</div></div>'+
 
     	'<div id="Carousel1" class="carousel slide"><!-- Carousel items --><div class="carousel-inner"><div class="item active"><div class="row">'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/1.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/2.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/3.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/4.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-0" onclick="changePhoto(id,1)"><img src="images/profesionales/1.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-1" onclick="changePhoto(id,1)"><img src="images/profesionales/2.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-2" onclick="changePhoto(id,1)"><img src="images/profesionales/3.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-3" onclick="changePhoto(id,1)"><img src="images/profesionales/4.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row--></div><!--.item-->'+
 		'<div class="item"><div class="row">'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/5.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/6.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/7.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/8.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-4" onclick="changePhoto(id,1)"><img src="images/profesionales/5.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-5" onclick="changePhoto(id,1)"><img src="images/profesionales/6.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-6" onclick="changePhoto(id,1)"><img src="images/profesionales/7.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-7" onclick="changePhoto(id,1)"><img src="images/profesionales/8.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'<div class="item"><div class="row">'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/9.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/10.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/11.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/12.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail"  id="carousel-selector-" onclick="changePhoto(id,1)"><img src="images/profesionales/9.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-9" onclick="changePhoto(id,1)"><img src="images/profesionales/10.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-10" onclick="changePhoto(id,1)"><img src="images/profesionales/11.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-11" onclick="changePhoto(id,1)"><img src="images/profesionales/12.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'<div class="item"><div class="row">'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/13.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/14.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/15.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/profesionales/16.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-12" onclick="changePhoto(id,1)"><img src="images/profesionales/13.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-13" onclick="changePhoto(id,1)"><img src="images/profesionales/14.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-14" onclick="changePhoto(id,1)"><img src="images/profesionales/15.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-15" onclick="changePhoto(id,1)"><img src="images/profesionales/16.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'</div><!--.carousel-inner-->'+
@@ -105,116 +113,113 @@ function individualSection(){
 '<div class="big-carousel-2 slide article-slide" id="article-photo-carousel">'+
 '<!-- Wrapper for slides -->'+
 '<div class="carousel-inner cont-slider">'+
-'<div class="item parent active" id="itemActive0">'+
+'<div class="item parent active" id="itemActive0" data-slide-number="0">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/2.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="1">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/3.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="2">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/4.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="3">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/5.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="4">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/1.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="5">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/7.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="6">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/8.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="7">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/9.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="8">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/10.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="9">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/11.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="10">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/12.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="11">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/13.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="12">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/14.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="13">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/15.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="14">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/16.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="15">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/17.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
-'<img alt="" title="" src="images/particulares/tartas_y_pasteles/18.jpg">'+
+'<div class="item parent 1" data-slide-number="16">'+
+'<img alt="" title="" src="images/particulares/tartas_y_pasteles/39.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="17">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/19.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="18">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/20.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="19">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/21.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="20">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/22.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="21">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/23.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="22">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/25.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="23">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/26.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="24">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/27.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="25">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/28.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="26">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/29.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="27">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/30.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="28">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/31.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="29">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/32.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="30">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/33.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="31">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/34.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="32">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/35.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="33">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/36.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="34">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/37.jpg">'+
 '</div>'+
-'<div class="item parent 1">'+
+'<div class="item parent 1" data-slide-number="35">'+
 '<img alt="" title="" src="images/particulares/tartas_y_pasteles/38.jpg">'+
-'</div>'+
-'<div class="item parent 1">'+
-'<img alt="" title="" src="images/particulares/tartas_y_pasteles/39.jpg">'+
 '</div>'+
 '</div>'+
 '</div>'+
@@ -223,80 +228,75 @@ function individualSection(){
 '<div class="carousel-inner">'+
 '<div class="item active">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/2.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/3.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/4.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/5.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-0" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/2.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-1" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/3.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-2" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/4.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-3" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/5.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 ''+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/1.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/7.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/8.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/9.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-4" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/1.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-5" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/7.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-6" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/8.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-7" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/9.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/10.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/11.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/12.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/13.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-8" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/10.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-9" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/11.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-10" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/12.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-11" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/13.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/14.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/15.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/16.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/17.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-12" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/14.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-13" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/15.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-14" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/16.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-15" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/17.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/18.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/19.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/20.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/21.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-16" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/39.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-17" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/19.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-18" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/20.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-19" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/21.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/22.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/23.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/25.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/26.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-20" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/22.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-21" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/23.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-22" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/25.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-23" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/26.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/27.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/28.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/29.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/30.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-24" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/27.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-25" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/28.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-26" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/29.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-27" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/30.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/31.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/32.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/33.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/34.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-28" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/31.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-29" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/32.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-30" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/33.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-31" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/34.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/35.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/36.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/37.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/38.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
-'</div><!--.row-->'+
-'</div><!--.item-->'+
-'<div class="item">'+
-'<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_y_pasteles/39.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-32" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/35.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-33" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/36.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-34" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/37.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-35" onclick="changePhoto(id,2)"><img src="images/particulares/tartas_y_pasteles/38.jpg" alt="Image" onclick="changePhoto(src,1)" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '</div><!--.carousel-inner-->'+
@@ -315,7 +315,6 @@ function individualSection(){
 '<li data-target="#Carousel2" data-slide-to="7"></li>'+
 '<li data-target="#Carousel2" data-slide-to="8"></li>'+
 '<li data-target="#Carousel2" data-slide-to="9"></li>'+
-'<li data-target="#Carousel2" data-slide-to="10"></li>'+
 '</ol>'+
 '</div><!--.Carousel-->    '+
 '</div>'+
@@ -326,67 +325,67 @@ function individualSection(){
 
 '<div class="container" id="carouselDiv">'+
 '<div class="col-md-8">'+
-'<div class="big-carousel-2 slide article-slide" id="article-photo-carousel">'+
+'<div class="big-carousel-3 slide article-slide" id="article-photo-carousel">'+
 '<!-- Wrapper for slides -->'+
 '<div class="carousel-inner cont-slider">'+
-'<div class="item parent active" id="itemActive0">'+
+'<div class="item parent active" id="itemActive0" data-slide-number="0">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/2.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="1">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/1.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="2">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/3.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="3">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/4.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="4">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/5.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="5">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/6.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="6">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/7.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="7">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/8.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="8">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/9.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="9">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/10.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="10">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/11.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="11">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/12.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="12">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/13.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="13">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/14.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="14">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/15.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="15">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/16.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="16">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/17.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="17">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/18.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="18">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/19.jpg">'+
 '</div>'+
-'<div class="item parent 2">'+
+'<div class="item parent 2" data-slide-number="19">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/20.jpg">'+
 '</div>'+
 '</div>'+
@@ -396,49 +395,49 @@ function individualSection(){
 '<div class="carousel-inner">'+
 '<div class="item active">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/2.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/1.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/3.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/4.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-0" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/2.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-1" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/1.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-2" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/3.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-3" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/4.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 ''+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/5.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/6.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/7.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/8.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-4" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/5.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-5" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/6.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-6" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/7.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-7" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/8.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/9.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/10.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/11.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/12.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-8" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/9.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-9" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/10.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-10" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/11.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-11" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/12.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/13.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/14.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/15.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/16.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-12" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/13.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-13" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/14.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-14" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/15.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-15" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/16.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '<div class="item">'+
 '<div class="row">'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/17.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/18.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/19.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
-'<div class="col-xs-3 img-responsive"><a class="thumbnail"><img src="images/particulares/tartas_especiales/20.jpg" alt="Image" onclick="changePhoto(src,2)" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-16" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/17.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-17" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/18.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-18" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/19.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-19" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/20.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
 '</div><!--.carousel-inner-->'+
 '<a data-slide="prev" href="#Carousel3" class="left carousel-control">'+
 '<i class="fa fa-arrow-left"></i></a>'+
-'<a data-slide="next" href="#Carousel3" class="right carousel-control">'+
+'<a data-slide="next" href="#Carousel3" class="right carousel-control" id="RightTartasEspeciales">'+
 '<i class="fa fa-arrow-right"></i></a>'+
 '<ol class="carousel-indicators">'+
 '<li data-target="#Carousel3" data-slide-to="0" class="active"></li>'+
@@ -460,7 +459,7 @@ function individualSection(){
 '</div>')
 
 
-	$('.big-carousel-2').carousel({
+	$('.big-carousel-3').carousel({
   		interval: 3000
 	});
 	$('.carousel').carousel({

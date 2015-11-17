@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-image"
+			],
+			[
 				"i",
 				"isempty"
 			],
@@ -424,10 +428,6 @@
 				"checked"
 			],
 			[
-				"ba",
-				"background-color"
-			],
-			[
 				"SHA",
 				"SHA512_DIGEST_LENGTH"
 			],
@@ -483,7 +483,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7244,
+				"buffer_size": 7505,
 				"line_ending": "Windows"
 			}
 		},
@@ -491,7 +491,7 @@
 			"file": "assets/css/personal.css",
 			"settings":
 			{
-				"buffer_size": 987,
+				"buffer_size": 970,
 				"line_ending": "Unix"
 			}
 		},
@@ -499,18 +499,23 @@
 			"file": "assets/js/navbar.js",
 			"settings":
 			{
-				"buffer_size": 1428,
+				"buffer_size": 1696,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "function changePhoto(src,id){\n	if(id==1){\n		$(\".active.parent.1 img\").attr('src',src);\n	}else if(id==2){\n		$(\".active.parent.2 img\").attr('src',src);\n	}\n}\n\nfunction proffesionalSection(){\n	$(\"#centerBox\").html('<div class=\"container\" id=\"carouselDiv\"><div class=\"col-md-8\"><div class=\"big-carousel slide article-slide\" id=\"article-photo-carousel\">'+\n		'<!-- Wrapper for slides --><div class=\"carousel-inner cont-slider\">'+\n		'<div class=\"item parent active\" id=\"itemActive0\"><img alt=\"\" title=\"\" src=\"images/profesionales/1.jpg\"></div>'+\n		'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/2.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/3.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/4.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/5.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/6.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/7.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/8.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/9.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/10.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/11.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/12.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/13.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/14.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/15.jpg\"></div>'+\n    	'<div class=\"item parent 1\"><img alt=\"\" title=\"\" src=\"images/profesionales/16.jpg\"></div>'+\n    	'</div></div>'+\n\n    	'<div id=\"Carousel1\" class=\"carousel slide\"><!-- Carousel items --><div class=\"carousel-inner\"><div class=\"item active\"><div class=\"row\">'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/1.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/2.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/3.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/4.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'</div><!--.row--></div><!--.item-->'+\n		'<div class=\"item\"><div class=\"row\">'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/5.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/6.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/7.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/8.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'</div><!--.row-->'+\n		'</div><!--.item-->'+\n		'<div class=\"item\"><div class=\"row\">'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/9.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/10.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/11.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/12.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'</div><!--.row-->'+\n		'</div><!--.item-->'+\n		'<div class=\"item\"><div class=\"row\">'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/13.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/14.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/15.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/profesionales/16.jpg\" alt=\"Image\" onclick=\"changePhoto(src,1)\" style=\"max-width:100%;\"></a></div>'+\n		'</div><!--.row-->'+\n		'</div><!--.item-->'+\n		'</div><!--.carousel-inner-->'+\n		'<a data-slide=\"prev\" href=\"#Carousel1\" class=\"left carousel-control\">'+\n		'<i class=\"fa fa-arrow-left\"></i></a>'+\n		'<a data-slide=\"next\" href=\"#Carousel1\" class=\"right carousel-control\">'+\n		'<i class=\"fa fa-arrow-right\"></i></a>'+\n		'<ol class=\"carousel-indicators\">'+\n		'<li data-target=\"#Carousel1\" data-slide-to=\"0\" class=\"active\"></li>'+\n		'<li data-target=\"#Carousel1\" data-slide-to=\"1\"></li>'+\n		'<li data-target=\"#Carousel1\" data-slide-to=\"2\"></li>'+\n		'<li data-target=\"#Carousel1\" data-slide-to=\"3\"></li>'+\n		'</ol></div><!--.Carousel-->'+  \n		'</div>'+\n		'<div class=\"col-md-4\">'+\n		'<div class=\"content\" id=\"empanadasText\">'+\n		'<h3>Empanadas y tartas</h3>'+\n		'<p>Disponemos de una gran variedad de <b>tamaños y de sabores</b>. Empanada de 1/2 kg, 1 kg y 2,5 kg con sabores como: <b>atún</b>, jamon y queso, <b>bacon y queso</b>, chorizo o carne picada. Pruebe tambien nuestra'+\n		'<b>empanada gallega de atun </b> de 2,5 kg . O si lo prefiere empanadilla de atun de 240 gramos.</p>'+\n		'</div>'+\n		'</div>'+\n		'</div>')\n\n	$('.big-carousel').carousel({\n  		interval: 3000\n	});\n	$('.carousel').carousel({\n  		interval: false\n	});\n}\n\nfunction individualSection(){\n	$(\"#centerBox\").html('<div class=\"container\" id=\"carouselDiv\">'+\n'<div class=\"col-md-4\">'+\n'<div class=\"content\" id=\"pastelesText\">'+\n'<h3>Tartas y pasteles</h3>'+\n'<p>Disponemos de pasteles surtidos y una amplia variedad de sabores y tamaños de tartas tanto para hosteleria como para celebraciones familiares.'+\n'</br>'+\n'Pruebe nuestra tarta de <b>queso</b> y nuestra tarta de <b>manzana</b>. Te chuparás los dedos.'+\n'</br> '+\n'Y en navidad fabricamos los mejores <b>roscones de reyes</b> de distintos tamaños  y sabores (Nata, trufa y crema) '+\n'</p>'+\n'</div>'+\n'</div>'+\n'<div class=\"col-md-8\">'+\n'<div class=\"big-carousel-2 slide article-slide\" id=\"article-photo-carousel\">'+\n'<!-- Wrapper for slides -->'+\n'<div class=\"carousel-inner cont-slider\">'+\n'<div class=\"item parent active\" id=\"itemActive0\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/2.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/3.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/4.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/5.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/6.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/7.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/8.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/9.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/10.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/11.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/12.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/13.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/14.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/15.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/16.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/17.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/18.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/19.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/20.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/21.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/22.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/23.jpg\">'+\n'</div>'+\n'<div class=\"item parent 2\">'+\n'<img alt=\"\" title=\"\" src=\"images/tartas_y_pasteles/24.jpg\">'+\n'</div>'+\n'</div>'+\n'</div>'+\n'<div id=\"Carousel2\" class=\"carousel slide\">'+\n'<!-- Carousel items -->'+\n'<div class=\"carousel-inner\">'+\n'<div class=\"item active\">'+\n'<div class=\"row\">'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/2.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/3.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/4.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/5.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'</div><!--.row-->'+\n'</div><!--.item-->'+\n''+\n'<div class=\"item\">'+\n'<div class=\"row\">'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/6.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/7.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/8.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/9.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'</div><!--.row-->'+\n'</div><!--.item-->'+\n'<div class=\"item\">'+\n'<div class=\"row\">'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/10.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/11.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/12.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/13.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'</div><!--.row-->'+\n'</div><!--.item-->'+\n'<div class=\"item\">'+\n'<div class=\"row\">'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/14.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/15.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/16.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/17.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'</div><!--.row-->'+\n'</div><!--.item-->'+\n'<div class=\"item\">'+\n'<div class=\"row\">'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/18.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/19.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/20.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/21.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'</div><!--.row-->'+\n'</div><!--.item-->'+\n'<div class=\"item\">'+\n'<div class=\"row\">'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/22.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/23.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'<div class=\"col-xs-3 img-responsive\"><a class=\"thumbnail\"><img src=\"images/tartas_y_pasteles/24.jpg\" alt=\"Image\" onclick=\"changePhoto(src,2)\" style=\"max-width:100%;\"></a></div>'+\n'</div><!--.row-->'+\n'</div><!--.item-->'+\n'</div><!--.carousel-inner-->'+\n'<a data-slide=\"prev\" href=\"#Carousel2\" class=\"left carousel-control\">'+\n'<i class=\"fa fa-arrow-left\"></i></a>'+\n'<a data-slide=\"next\" href=\"#Carousel2\" class=\"right carousel-control\">'+\n'<i class=\"fa fa-arrow-right\"></i></a>'+\n'<ol class=\"carousel-indicators\">'+\n'<li data-target=\"#Carousel2\" data-slide-to=\"0\" class=\"active\"></li>'+\n'<li data-target=\"#Carousel2\" data-slide-to=\"1\"></li>'+\n'<li data-target=\"#Carousel2\" data-slide-to=\"2\"></li>'+\n'<li data-target=\"#Carousel2\" data-slide-to=\"3\"></li>'+\n'<li data-target=\"#Carousel2\" data-slide-to=\"4\"></li>'+\n'<li data-target=\"#Carousel2\" data-slide-to=\"5\"></li>'+\n'</ol>'+\n'</div><!--.Carousel-->    '+\n'</div>'+\n'</div>')\n\n\n	$('.big-carousel-2').carousel({\n  		interval: 3000\n	});\n	$('.carousel').carousel({\n  		interval: false\n	});\n}\n\n\n\nfunction resetCenterBox(){\n	$('#centerBox').html('<div class=\"box container\" id=\"mayoristas\">'+\n'<header>'+\n'<h2>Productos para profesionales</h2>'+\n'<p>Que estar lejos de nosotros no le impida disfrutar de nuestros productos.</p>'+\n'</header>'+\n'<section>'+\n'<p style=\"text-align: justify;\">Ponemos a su disposición una gran variedad de nuestros mejores productos enfocados especialmente a la hosteleria. Contamos con una importante red de distribuidores que operan en gran parte de la Península.</p>'+\n'<div class=\"row\">'+\n'<div class=\"col-md-4 col-md-offset-4 col-xs-12\">'+\n'<input type=\"button\" value=\"Descubre más\" onclick=\"location.href='+\"'\"+'#centerBox'+\"'\"+';proffesionalSection();\"/>'+\n'</div>'+\n'</div>'+\n'</section>'+\n'</div>'+\n'<div class=\"box container\" id=\"particulares\">'+\n'<header>'+\n'<h2>Productos para particulares</h2>'+\n'<p>Si quieres ofrecer las mejores empanadas y tartas a tus familiares y amigos, esta es tu sección</p>'+\n'</header>'+\n'<section>'+\n'<p style=\"text-align: justify;\">Hacemos empanadas, pasteles y tartas para celebraciones por encargo. Contamos con una amplia variedad de sabores y tamaños. Si quieres podemos hacerte tu tarta con la foto que quieras, o si la quieres más dulce ¡te la hacemos de chuches!</p>'+\n'<div class=\"row\">'+\n'<div class=\"col-md-4 col-md-offset-4 col-xs-12\">'+\n'<input type=\"button\" value=\"Descubre más\" onclick=\"location.href='+\"'\"+'#centerBox'+\"'\"+';individualSection();\"/>'+\n'</div>'+\n'</div>'+\n'</section>'+\n'</div>')\n}",
-			"file": "assets/js/carousel.js",
-			"file_size": 16780,
-			"file_write_time": 1447092643000000,
+			"file": "assets/js/map.js",
 			"settings":
 			{
-				"buffer_size": 16763,
+				"buffer_size": 180,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/carousel.js",
+			"settings":
+			{
+				"buffer_size": 30621,
 				"line_ending": "Unix"
 			}
 		},
@@ -518,7 +523,7 @@
 			"file": "assets/css/navbar.css",
 			"settings":
 			{
-				"buffer_size": 2381,
+				"buffer_size": 2433,
 				"line_ending": "Unix"
 			}
 		},
@@ -728,6 +733,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"offsetWidth",
+			"2",
+			"tartas_y_pasteles",
 			"refrigerados",
 			"fmt",
 			"window",
@@ -852,10 +860,7 @@
 			"flir_sus",
 			"m_join_sub",
 			");\n",
-			"number of",
-			"m_joint",
-			"getReso",
-			"width"
+			"number of"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -876,7 +881,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -884,15 +889,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 7244,
+						"buffer_size": 7505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6082,
-								6082
+								711,
+								711
 							]
 						],
 						"settings":
@@ -915,15 +920,15 @@
 					"file": "assets/css/personal.css",
 					"settings":
 					{
-						"buffer_size": 987,
+						"buffer_size": 970,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								985,
-								985
+								835,
+								855
 							]
 						],
 						"settings":
@@ -935,7 +940,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 432.0,
+						"translation.y": 603.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -945,15 +950,15 @@
 					"file": "assets/js/navbar.js",
 					"settings":
 					{
-						"buffer_size": 1428,
+						"buffer_size": 1696,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								655,
-								660
+								681,
+								681
 							]
 						],
 						"settings":
@@ -973,18 +978,47 @@
 				},
 				{
 					"buffer": 3,
-					"file": "assets/js/carousel.js",
+					"file": "assets/js/map.js",
 					"settings":
 					{
-						"buffer_size": 16763,
+						"buffer_size": 180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5994,
-								5994
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/js/carousel.js",
+					"settings":
+					{
+						"buffer_size": 30621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
 							]
 						],
 						"settings":
@@ -996,25 +1030,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 918.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "assets/css/navbar.css",
 					"settings":
 					{
-						"buffer_size": 2381,
+						"buffer_size": 2433,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								46,
-								46
+								160,
+								160
 							]
 						],
 						"settings":
@@ -1033,7 +1067,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "carousel_recortes.html",
 					"settings":
 					{
@@ -1064,7 +1098,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "assets/css/main.css",
 					"settings":
 					{
@@ -1075,8 +1109,8 @@
 						"selection":
 						[
 							[
-								44653,
-								44653
+								46069,
+								46069
 							]
 						],
 						"settings":
@@ -1088,13 +1122,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 48527.0,
+						"translation.y": 50525.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "assets/css/carousel.css",
 					"settings":
 					{

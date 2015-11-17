@@ -3,7 +3,12 @@
 }
 .navbar-brand { 
     position: relative; 
-    z-index: 2; }
+    z-index: 2; 
+}
+#logo{
+    max-width:150px;
+    margin-top: -2%;
+}
 
 .navbar-nav.navbar-right .btn { 
     position: relative; 
@@ -39,7 +44,7 @@
     float: right; }
 
 .btn.btn-circle { 
-    border-radius: 50px; }
+    border-radius: 50px;}
 .btn.btn-outline { 
     background-color: transparent; }
 

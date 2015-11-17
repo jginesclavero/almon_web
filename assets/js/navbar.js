@@ -11,24 +11,43 @@ $(document).ready(function() {
 '<span class="icon-bar"></span>'+
 '<span class="icon-bar"></span>'+
 '</button>'+
-'<a class="navbar-brand" href="#">Brand</a>'+
+'<a class="navbar-brand" href="#header" style="border-style: none;" onclick="resetCenterBox()" id="logoDiv">'+
+'<img id="logo" src="assets/css/images/almon-sl.png">'+
+'</a>'+
 '</div>'+
 '<!-- Collect the nav links, forms, and other content for toggling -->'+
 '<div class="collapse navbar-collapse" id="navbar-collapse-1">'+
 '<ul class="nav navbar-nav navbar-right">'+
-'<li><a class="nounderline" onclick="resetCenterBox()" href="#">Home</a></li>'+
+'<li><input type="button" value="Especial Navidad" id="especialNavidad"/></li>'+
 '<li><a class="nounderline" onclick="resetCenterBox()" href="#mayoristas">Mayoristas</a></li>'+
 '<li><a class="nounderline" onclick="resetCenterBox()" href="#particulares">Particulares</a></li>'+
-'<li><a class="nounderline" href="#empresa">Sobre Nosotros</a></li>'+
+'<li><a class="nounderline" href="#empresa">Empresa</a></li>'+
 '<li><a class="nounderline" href="#contacto">Contacto</a></li>'+
 '<li><a href="https://www.facebook.com/productosa2" class="icon fa-facebook"><span class="label">Facebook</span></a></li>'+
 '</ul>'+
 '</div><!-- /.navbar-collapse -->'+
 '</div><!-- /.container -->');
+
+    if($(window).width() > 1100){
+        $("#logoDiv").css("margin-left","-60%");
+      }
     }
     if ($(window).scrollTop() < 501) {
       $('#nav_bar').html('');
       $('#nav_bar').removeClass('navbar-fixed-top');
     }
+
+    /*$('a[href*=#]').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      && location.hostname == this.hostname) {
+             var $target = $(this.hash);
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+             if ($target.length) {
+                 var targetOffset = $target.offset().top;
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+                 return false;
+            }
+       }
+   });*/
   });
 });

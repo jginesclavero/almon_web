@@ -1,11 +1,11 @@
 @font-face {
-    font-family: CrackerJack;
-    src: url(../fonts/CrackerJack-Regular.otf);
+    font-family: EckmannD;
+    src: url(../fonts/EckmannD.otf);
 }
 
 #header h1{
-	font-family: CrackerJack;
-	font-size: 420%;
+	font-family: EckmannD;
+	font-size: 330%;
 }
 #empanadasText{
 	font-size: 80%;
@@ -58,3 +58,15 @@ a.nounderline{
 #empresa section p{
 	text-align: justify;
 }
+
+#especialNavidad{
+	font-size: 60%;
+	margin-top: 5%;
+}
+
+img.resize{
+	width: auto;
+	max-height: 379px;
+	margin-left: 18%;
+}
+
