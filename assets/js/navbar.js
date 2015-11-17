@@ -11,14 +11,14 @@ $(document).ready(function() {
 '<span class="icon-bar"></span>'+
 '<span class="icon-bar"></span>'+
 '</button>'+
-'<a class="navbar-brand" href="#header" style="border-style: none;" onclick="resetCenterBox()" id="logoDiv">'+
+'<a class="navbar navbar-brand" href="#header" style="border-style: none;" onclick="resetCenterBox()" id="logoDiv">'+
 '<img id="logo" src="assets/css/images/almon-sl.png">'+
 '</a>'+
 '</div>'+
 '<!-- Collect the nav links, forms, and other content for toggling -->'+
 '<div class="collapse navbar-collapse" id="navbar-collapse-1">'+
 '<ul class="nav navbar-nav navbar-right">'+
-'<li><a class="navbar nounderline" href="#carouselDivRoscones"><input type="button" value="Especial Navidad" id="especialNavidad"/></a></li>'+
+'<li><input type="button" value="Especial Navidad" id="especialNavidad" onclick="buttonScroll(carouselDivRoscones)"/></li>'+
 '<li><a class="navbar nounderline" onclick="resetCenterBox()" href="#mayoristas">Mayoristas</a></li>'+
 '<li><a class="navbar nounderline" onclick="resetCenterBox()" href="#particulares">Particulares</a></li>'+
 '<li><a class="navbar nounderline" href="#empresa">Empresa</a></li>'+
@@ -51,3 +51,14 @@ $(document).ready(function() {
    });
   });
 });
+
+function buttonScroll(id){
+  var $target = $(id);
+  $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+  if ($target.length) {
+    var targetOffset = $target.offset().top;
+    $('html,body').animate({scrollTop: targetOffset}, 1000);
+    return false;
+        }
+       
+}
