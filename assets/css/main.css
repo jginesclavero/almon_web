@@ -2507,7 +2507,8 @@
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
 		background-image: url("images/top-3200.svg"), url("images/header_cookies.jpg");
-		background-position: bottom center,					top left,				center center;
+		background-position: center;
+		background-size: cover;
 		background-repeat: repeat-x,						no-repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
 		color: rgba(255, 255, 255, 0.8);
@@ -2596,7 +2597,7 @@
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #83F999;
+		background-color: #E10281;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
@@ -2647,7 +2648,7 @@
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
+			color: #E10281;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -2823,7 +2824,8 @@
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
 				background-image: url("images/top-1600.svg"), url("images/header_cookies.jpg");
-				background-size: 1600px 230px,					auto,							cover;
+				background-size: cover;
+				background-position: center;
 				padding: 6em 0 12em 0;
 			}
 
@@ -2985,7 +2987,9 @@
 
 			#header {
 				background-image: url("images/top-1280.svg"), url("images/header_cookies.jpg");
-				background-size: 1280px 184px,						auto,							cover;
+				/*background-size: 1280px 184px,						auto,							cover;*/
+				background-size: cover;
+				background-position: center;
 				padding: 3em 0 7em 0;
 			}
 

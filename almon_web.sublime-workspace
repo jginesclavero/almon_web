@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-color"
+			],
+			[
 				"id",
 				"id_selector"
 			],
@@ -22,10 +26,6 @@
 			[
 				"mar",
 				"margin-top"
-			],
-			[
-				"ba",
-				"background-image"
 			],
 			[
 				"i",
@@ -483,23 +483,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11371,
+				"buffer_size": 11499,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/js/navbar.js",
-			"settings":
-			{
-				"buffer_size": 2698,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/css/personal.css",
 			"settings":
 			{
-				"buffer_size": 1119,
+				"buffer_size": 1052,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/navbar.js",
+			"settings":
+			{
+				"buffer_size": 2845,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/navbar.css",
+			"settings":
+			{
+				"buffer_size": 2432,
 				"line_ending": "Unix"
 			}
 		},
@@ -515,15 +523,7 @@
 			"file": "assets/js/carousel.js",
 			"settings":
 			{
-				"buffer_size": 34980,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "assets/css/navbar.css",
-			"settings":
-			{
-				"buffer_size": 2432,
+				"buffer_size": 47785,
 				"line_ending": "Unix"
 			}
 		},
@@ -588,6 +588,7 @@
 	},
 	"file_history":
 	[
+		"/home/jonathan/Aloneinthelab/almon_web/assets/js/main.js",
 		"/home/jonathan/Aloneinthelab/almon_web/assets/js/map.js",
 		"/home/jonathan/Aloneinthelab/almon_web/almon_web.sublime-project",
 		"/home/jonathan/.gvfs/SFTP para jgines en gamma07.aulas.gsyc.es/home/al-11-12/jgines/go/src/semsmain.go",
@@ -714,8 +715,7 @@
 		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/db.js",
 		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/init.js",
 		"/home/jonathan/Aloneinthelab/Heroku/webTest/login.html",
-		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/model/Comment.js",
-		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/model/Post.js"
+		"/home/jonathan/Aloneinthelab/Heroku/webTest/passport/model/Comment.js"
 	],
 	"find":
 	{
@@ -733,6 +733,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"navbar-collapse-1",
+			"navbar-header",
+			"tambien",
+			"img",
+			"footerText",
+			"83F999",
+			"background",
+			"footer",
+			"Carousel4",
+			"Carousel3",
+			"profesionales",
 			"2",
 			"onclick=\"changePhoto(src,2)\"",
 			"changePhoto(id,1)",
@@ -849,18 +860,7 @@
 			"coll",
 			"screens",
 			"scree",
-			"screens",
-			"screen",
-			"revie",
-			"featu",
-			"herra",
-			"about",
-			"\">\n",
-			"block",
-			"Ss",
-			" #",
-			"elemen",
-			"featu"
+			"screens"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -889,15 +889,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 11371,
+						"buffer_size": 11499,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								606,
-								606
+								794,
+								794
 							]
 						],
 						"settings":
@@ -910,25 +910,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 9.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "assets/js/navbar.js",
+					"file": "assets/css/personal.css",
 					"settings":
 					{
-						"buffer_size": 2698,
+						"buffer_size": 1052,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2698,
-								2698
+								1026,
+								1026
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/js/navbar.js",
+					"settings":
+					{
+						"buffer_size": 2845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2527,
+								2527
 							]
 						],
 						"settings":
@@ -941,25 +971,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "assets/css/personal.css",
+					"buffer": 3,
+					"file": "assets/css/navbar.css",
 					"settings":
 					{
-						"buffer_size": 1119,
+						"buffer_size": 2432,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1115,
-								1115
+								559,
+								559
 							]
 						],
 						"settings":
@@ -968,16 +998,17 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 333.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "assets/js/roscones.js",
 					"settings":
 					{
@@ -995,6 +1026,8 @@
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1004,19 +1037,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "assets/js/carousel.js",
 					"settings":
 					{
-						"buffer_size": 34980,
+						"buffer_size": 47785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								108,
-								108
+								45589,
+								45589
 							]
 						],
 						"settings":
@@ -1026,37 +1059,6 @@
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "assets/css/navbar.css",
-					"settings":
-					{
-						"buffer_size": 2432,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								123,
-								123
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1076,8 +1078,8 @@
 						"selection":
 						[
 							[
-								46069,
-								46069
+								43446,
+								43446
 							]
 						],
 						"settings":
@@ -1089,7 +1091,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 50525.0,
+						"translation.y": 47177.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1137,8 +1139,8 @@
 						"selection":
 						[
 							[
-								4029,
-								4029
+								4028,
+								4028
 							]
 						],
 						"settings":
@@ -1151,7 +1153,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1314.0,
+						"translation.y": 716.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

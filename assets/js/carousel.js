@@ -11,7 +11,7 @@ function changePhoto(id,n){
     }else if(n==3){
         $('.big-carousel-3').carousel(id_selector_parse);
 	}else if(n==4){
-        $('.big-carousel-3').carousel(id_selector_parse);
+        $('.big-carousel-4').carousel(id_selector_parse);
 	}
 }
 
@@ -19,26 +19,35 @@ function proffesionalSection(){
 	$("#centerBox").html('<div class="container" id="carouselDiv" style="padding-top:10%;"><div class="col-md-8"><div class="big-carousel slide article-slide" id="article-photo-carousel">'+
 		'<!-- Wrapper for slides --><div class="carousel-inner cont-slider">'+
 		'<div class="item parent active" id="itemActive0" data-slide-number="0"><img alt="" title="" src="images/profesionales/1.jpg"></div>'+
-		'<div class="item parent 1" data-slide-number="1"><img alt="" title="" src="images/profesionales/2.jpg"></div>'+
+		'<div class="item parent 1" data-slide-number="1"><img alt="" title="" src="images/profesionales/17.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="2"><img alt="" title="" src="images/profesionales/3.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="3"><img alt="" title="" src="images/profesionales/4.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="4"><img alt="" title="" src="images/profesionales/5.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="5"><img alt="" title="" src="images/profesionales/6.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="6"><img alt="" title="" src="images/profesionales/7.jpg"></div>'+
-    	'<div class="item parent 1" data-slide-number="7"><img alt="" title="" src="images/profesionales/8.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="7"><img alt="" title="" src="images/profesionales/18.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="8"><img alt="" title="" src="images/profesionales/9.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="9"><img alt="" title="" src="images/profesionales/10.jpg"></div>'+
-    	'<div class="item parent 1" data-slide-number="10"><img alt="" title="" src="images/profesionales/11.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="10"><img alt="" title="" src="images/profesionales/19.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="11"><img alt="" title="" src="images/profesionales/12.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="12"><img alt="" title="" src="images/profesionales/13.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="13"><img alt="" title="" src="images/profesionales/14.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="14"><img alt="" title="" src="images/profesionales/15.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="15"><img alt="" title="" src="images/profesionales/16.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="16"><img alt="" title="" src="images/profesionales/20.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="17"><img alt="" title="" src="images/profesionales/21.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="18"><img alt="" title="" src="images/profesionales/22.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="19"><img alt="" title="" src="images/profesionales/23.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="20"><img alt="" title="" src="images/profesionales/24.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="21"><img alt="" title="" src="images/profesionales/25.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="22"><img alt="" title="" src="images/profesionales/26.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="23"><img alt="" title="" src="images/profesionales/27.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="24"><img alt="" title="" src="images/profesionales/28.jpg"></div>'+
     	'</div></div>'+
 
     	'<div id="Carousel1" class="carousel slide"><!-- Carousel items --><div class="carousel-inner"><div class="item active"><div class="row">'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-0" onclick="changePhoto(id,1)"><img src="images/profesionales/1.jpg" alt="Image" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-1" onclick="changePhoto(id,1)"><img src="images/profesionales/2.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-1" onclick="changePhoto(id,1)"><img src="images/profesionales/17.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-2" onclick="changePhoto(id,1)"><img src="images/profesionales/3.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-3" onclick="changePhoto(id,1)"><img src="images/profesionales/4.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row--></div><!--.item-->'+
@@ -46,13 +55,13 @@ function proffesionalSection(){
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-4" onclick="changePhoto(id,1)"><img src="images/profesionales/5.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-5" onclick="changePhoto(id,1)"><img src="images/profesionales/6.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-6" onclick="changePhoto(id,1)"><img src="images/profesionales/7.jpg" alt="Image" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-7" onclick="changePhoto(id,1)"><img src="images/profesionales/8.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-7" onclick="changePhoto(id,1)"><img src="images/profesionales/18.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'<div class="item"><div class="row">'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-8" onclick="changePhoto(id,1)"><img src="images/profesionales/9.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-9" onclick="changePhoto(id,1)"><img src="images/profesionales/10.jpg" alt="Image" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-10" onclick="changePhoto(id,1)"><img src="images/profesionales/11.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-10" onclick="changePhoto(id,1)"><img src="images/profesionales/19.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-11" onclick="changePhoto(id,1)"><img src="images/profesionales/12.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+
@@ -62,6 +71,21 @@ function proffesionalSection(){
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-14" onclick="changePhoto(id,1)"><img src="images/profesionales/15.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-15" onclick="changePhoto(id,1)"><img src="images/profesionales/16.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
+		'</div><!--.item-->'+
+		'<div class="item"><div class="row">'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-16" onclick="changePhoto(id,1)"><img src="images/profesionales/20.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-17" onclick="changePhoto(id,1)"><img src="images/profesionales/21.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-18" onclick="changePhoto(id,1)"><img src="images/profesionales/22.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-19" onclick="changePhoto(id,1)"><img src="images/profesionales/23.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'</div><!--.row-->'+
+		'</div><!--.item-->'+'<div class="item"><div class="row">'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-20" onclick="changePhoto(id,1)"><img src="images/profesionales/24.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-21" onclick="changePhoto(id,1)"><img src="images/profesionales/25.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-22" onclick="changePhoto(id,1)"><img src="images/profesionales/26.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-23" onclick="changePhoto(id,1)"><img src="images/profesionales/27.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'</div><!--.row-->'+
+		'</div><!--.item-->'+'<div class="item"><div class="row">'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-24" onclick="changePhoto(id,1)"><img src="images/profesionales/28.jpg" alt="Image" style="max-width:100%;"></a></div>'+		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'</div><!--.carousel-inner-->'+
 		'<a data-slide="prev" href="#Carousel1" class="left carousel-control">'+
@@ -73,6 +97,10 @@ function proffesionalSection(){
 		'<li data-target="#Carousel1" data-slide-to="1"></li>'+
 		'<li data-target="#Carousel1" data-slide-to="2"></li>'+
 		'<li data-target="#Carousel1" data-slide-to="3"></li>'+
+		'<li data-target="#Carousel1" data-slide-to="4"></li>'+
+		'<li data-target="#Carousel1" data-slide-to="5"></li>'+
+		'<li data-target="#Carousel1" data-slide-to="6"></li>'+
+		'<li data-target="#Carousel1" data-slide-to="7"></li>'+
 		'</ol></div><!--.Carousel-->'+  
 		'</div>'+
 		'<div class="col-md-4">'+
@@ -102,7 +130,7 @@ function proffesionalSection(){
 function individualSection(){
 	$("#centerBox").html(
 
-		'<div class="container" id="carouselDiv" style="padding-top:10%;"><div class="col-md-8"><div class="big-carousel-3 slide article-slide" id="article-photo-carousel">'+
+		'<div class="container" id="carouselDiv" style="padding-top:7%;"><div class="col-md-8"><div class="big-carousel-3 slide article-slide" id="article-photo-carousel">'+
 		'<!-- Wrapper for slides --><div class="carousel-inner cont-slider">'+
 		'<div class="item parent active" id="itemActive0" data-slide-number="0"><img alt="" title="" src="images/particulares/empanadas/1.jpg"></div>'+
 		'<div class="item parent 1" data-slide-number="1"><img alt="" title="" src="images/particulares/empanadas/2.jpg"></div>'+
@@ -111,6 +139,16 @@ function individualSection(){
     	'<div class="item parent 1" data-slide-number="4"><img alt="" title="" src="images/particulares/empanadas/5.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="5"><img alt="" title="" src="images/particulares/empanadas/6.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="6"><img alt="" title="" src="images/particulares/empanadas/7.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="7"><img alt="" title="" src="images/particulares/empanadas/8.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="8"><img alt="" title="" src="images/particulares/empanadas/9.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="9"><img alt="" title="" src="images/particulares/empanadas/10.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="10"><img alt="" title="" src="images/particulares/empanadas/11.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="11"><img alt="" title="" src="images/particulares/empanadas/12.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="12"><img alt="" title="" src="images/particulares/empanadas/13.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="13"><img alt="" title="" src="images/particulares/empanadas/14.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="14"><img alt="" title="" src="images/particulares/empanadas/15.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="15"><img alt="" title="" src="images/particulares/empanadas/16.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="16"><img alt="" title="" src="images/particulares/empanadas/17.jpg"></div>'+
     	'</div></div>'+
 
     	'<div id="Carousel4" class="carousel slide"><!-- Carousel items --><div class="carousel-inner"><div class="item active"><div class="row">'+
@@ -123,6 +161,25 @@ function individualSection(){
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-4" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/5.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-5" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/6.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-6" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/7.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-7" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/8.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'</div><!--.row-->'+
+		'</div><!--.item-->'+
+		'<div class="item"><div class="row">'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-8" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/9.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-9" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/10.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-10" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/11.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-11" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/12.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'</div><!--.row-->'+
+		'</div><!--.item-->'+
+		'<div class="item"><div class="row">'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-12" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/13.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-13" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/14.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-14" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/15.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-15" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/16.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'</div><!--.row-->'+
+		'</div><!--.item-->'+
+		'<div class="item"><div class="row">'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-16" onclick="changePhoto(id,3)"><img src="images/particulares/empanadas/17.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'</div><!--.carousel-inner-->'+
@@ -133,6 +190,9 @@ function individualSection(){
 		'<ol class="carousel-indicators">'+
 		'<li data-target="#Carousel4" data-slide-to="0" class="active"></li>'+
 		'<li data-target="#Carousel4" data-slide-to="1"></li>'+
+		'<li data-target="#Carousel4" data-slide-to="2"></li>'+
+		'<li data-target="#Carousel4" data-slide-to="3"></li>'+
+		'<li data-target="#Carousel4" data-slide-to="4"></li>'+
 		'</ol></div><!--.Carousel-->'+  
 		'</div>'+
 		'<div class="col-md-4">'+
@@ -148,7 +208,7 @@ function individualSection(){
 
 
 //Carousel2
-'<div class="container" id="carouselDiv" style="padding-top:10%;">'+
+'<div class="container" id="carouselDiv" ">'+
 '<div class="col-md-4">'+
 '<div class="content" id="pastelesText">'+
 '<h3>Tartas y pasteles</h3>'+
@@ -161,7 +221,7 @@ function individualSection(){
 '</div>'+
 '</div>'+
 '<div class="col-md-8">'+
-'<div class="big-carousel-2 slide article-slide" id="article-photo-carousel">'+
+'<div class="big-carousel-2 slide article-slide" id="article-photo-carousel" style="margin-top:-5%;">'+
 '<!-- Wrapper for slides -->'+
 '<div class="carousel-inner cont-slider">'+
 '<div class="item parent active" id="itemActive0" data-slide-number="0">'+
@@ -439,6 +499,12 @@ function individualSection(){
 '<div class="item parent 2" data-slide-number="19">'+
 '<img alt="" title="" src="images/particulares/tartas_especiales/20.jpg">'+
 '</div>'+
+'<div class="item parent 2" data-slide-number="20">'+
+'<img alt="" title="" src="images/particulares/tartas_especiales/21.jpg">'+
+'</div>'+
+'<div class="item parent 2" data-slide-number="21">'+
+'<img alt="" title="" src="images/particulares/tartas_especiales/22.jpg">'+
+'</div>'+
 '</div>'+
 '</div>'+
 '<div id="Carousel3" class="carousel slide">'+
@@ -485,6 +551,12 @@ function individualSection(){
 '<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-19" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/20.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 '</div><!--.row-->'+
 '</div><!--.item-->'+
+'<div class="item">'+
+'<div class="row">'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-20" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/21.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-21" onclick="changePhoto(id,3)"><img src="images/particulares/tartas_especiales/22.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+'</div><!--.row-->'+
+'</div><!--.item-->'+
 '</div><!--.carousel-inner-->'+
 '<a data-slide="prev" href="#Carousel3" class="left carousel-control">'+
 '<i class="fa fa-arrow-left"></i></a>'+
@@ -496,6 +568,7 @@ function individualSection(){
 '<li data-target="#Carousel3" data-slide-to="2"></li>'+
 '<li data-target="#Carousel3" data-slide-to="3"></li>'+
 '<li data-target="#Carousel3" data-slide-to="4"></li>'+
+'<li data-target="#Carousel3" data-slide-to="5"></li>'+
 '</ol>'+
 '</div><!--.Carousel-->    '+
 '</div>'+
@@ -513,13 +586,16 @@ function individualSection(){
 	$('.big-carousel-3').carousel({
   		interval: 3000
 	});
+	$('.big-carousel-2').carousel({
+  		interval: 3000
+	});
 	$('.carousel').carousel({
   		interval: false
 	});
 
 	if($(window).width() < 680){
-		$('.left').css({"margin-left":"-5%","margin-top":"-3%"})
-		$('.right').css({"margin-right":"-5%","margin-top":"-3%"})
+		$('.left').css({"margin-left":"-13%","margin-top":"-5%"})
+		$('.right').css({"margin-right":"-13%","margin-top":"-5%"})
 	}
 }
 
@@ -546,12 +622,19 @@ function resetCenterBox(){
 '<p>Si quieres ofrecer las mejores empanadas y tartas a tus familiares y amigos, esta es tu sección</p>'+
 '</header>'+
 '<section>'+
-'<p style="text-align: justify;">Hacemos empanadas, pasteles y tartas para celebraciones por encargo. Contamos con una amplia variedad de sabores y tamaños. Si quieres podemos hacerte tu tarta con la foto que quieras, o si la quieres más dulce ¡te la hacemos de chuches!</p>'+
+'<p style="text-align: justify;">Hacemos empanadas, pasteles y tartas para celebraciones por encargo. Contamos con una amplia variedad de sabores y tamaños. Si quieres podemos hacer tu tarta con la foto que quieras, o si la quieres más dulce ¡te la hacemos de chuches!</p>'+
 '<div class="row">'+
-'<div class="col-md-4 col-md-offset-4 col-xs-12">'+
+'<div class="col-md-4 col-md-offset-4 col-xs-12" id="indvButtonDiv">'+
 '<input type="button" value="Descubre más" onclick="location.href='+"'"+'#centerBox'+"'"+';individualSection();"/>'+
 '</div>'+
 '</div>'+
 '</section>'+
 '</div>')
 }
+
+$(document).ready(function() {
+	if($(window).width() < 680){
+		$('.left').css({"margin-left":"-13%","margin-top":"-5%"})
+		$('.right').css({"margin-right":"-13%","margin-top":"-5%"})
+	}
+});

@@ -18,10 +18,10 @@
 }
 
 #footerHeader h2{
-	color: rgba(110, 110, 110, 0.9);
+	color: rgba(255, 255, 255, 0.9);
 }
 #footerText, #footerText b{
-	color: rgba(110, 110, 110, 0.9);
+	color: rgba(255, 255, 255, 0.9);
 }
 
 
@@ -31,7 +31,7 @@
 #centerBox input[type="button"],
 #centerBox .button {
 	text-align: center;
-	background: #4eb980;
+	background: #E10281;
 	box-shadow: inset 0 0 0 1px #ffffff;
 	color: #ffffff;
 	
@@ -42,7 +42,7 @@
 #centerBox input[type="button"]:hover,
 #centerBox .button:hover {
 	text-align: center;
-	background: rgba(78, 185, 128, 0.8);
+	background: rgba(225, 2, 129, 0.8);
 	color: #ffffff;
 }
 
@@ -64,12 +64,8 @@ a.nounderline{
 	margin-top: 5%;
 }
 
-img.resize{
-	width: auto;
-	max-height: 379px;
-	margin-left: 18%;
-}
 
 #nav_bar{
 	height: 0;
 }
+

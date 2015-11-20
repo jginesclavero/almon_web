@@ -1,10 +1,18 @@
 $(document).ready(function() {
   $(window).scroll(function () {
-    if ($(window).scrollTop() > 500) {
+
+    var pixScroll = 430;
+    if($(window).width() < 400){
+      pixScroll = 150;
+    }else if($(window).width() < 770){
+      pixScroll = 300;
+    }
+
+    if ($(window).scrollTop() > pixScroll) {
       $('#nav_bar').addClass('navbar-fixed-top');
       $('#nav_bar').html('<div class="container"><!-- Brand and toggle get grouped for better mobile display -->'+
 '<div class="navbar-header">'+
-'<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">'+
+'<button type="button" class="navbar-toggle collapsed" id="buttonNav" data-toggle="collapse" data-target="#navbar-collapse-1">'+
 '<span class="sr-only">Toggle navigation</span>'+
 '<span class="icon-bar"></span>'+
 '<span class="icon-bar"></span>'+
@@ -17,7 +25,7 @@ $(document).ready(function() {
 '<!-- Collect the nav links, forms, and other content for toggling -->'+
 '<div class="collapse navbar-collapse" id="navbar-collapse-1">'+
 '<ul class="nav navbar-nav navbar-right">'+
-'<li><input type="button" value="Especial Navidad" id="especialNavidad" onclick="buttonScroll(carouselDivRoscones)"/></li>'+
+'<li><input type="button" value="Especial Navidad" id="especialNavidad" onclick="buttonScroll(indvButtonDiv)"/></li>'+
 '<li><a class="navbar nounderline" onclick="resetCenterBox()" href="#mayoristas">Mayoristas</a></li>'+
 '<li><a class="navbar nounderline" onclick="resetCenterBox()" href="#particulares">Particulares</a></li>'+
 '<li><a class="navbar nounderline" href="#empresa">Empresa</a></li>'+
@@ -31,7 +39,7 @@ $(document).ready(function() {
         $("#logoDiv").css("margin-left","-60%");
       }
     }
-    if ($(window).scrollTop() < 501) {
+    if ($(window).scrollTop() < pixScroll+1) {
       $('#nav_bar').html('');
       $('#nav_bar').removeClass('navbar-fixed-top');
     }
@@ -48,6 +56,11 @@ $(document).ready(function() {
             }
        }
    });
+
+    $('#buttonNav').on('click', function(){
+       $('.navbar-collapse').css('background-color','rgba(248,248,248,0.7)');
+    });
+
   });
 });
 
