@@ -25,7 +25,7 @@ function proffesionalSection(){
     	'<div class="item parent 1" data-slide-number="4"><img alt="" title="" src="images/profesionales/5.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="5"><img alt="" title="" src="images/profesionales/6.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="6"><img alt="" title="" src="images/profesionales/7.jpg"></div>'+
-    	'<div class="item parent 1" data-slide-number="7"><img alt="" title="" src="images/profesionales/18.jpg"></div>'+
+    	'<div class="item parent 1" data-slide-number="7"><img alt="" title="" src="images/profesionales/30.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="8"><img alt="" title="" src="images/profesionales/9.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="9"><img alt="" title="" src="images/profesionales/10.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="10"><img alt="" title="" src="images/profesionales/19.jpg"></div>'+
@@ -44,8 +44,6 @@ function proffesionalSection(){
     	'<div class="item parent 1" data-slide-number="23"><img alt="" title="" src="images/profesionales/27.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="24"><img alt="" title="" src="images/profesionales/28.jpg"></div>'+
     	'<div class="item parent 1" data-slide-number="25"><img alt="" title="" src="images/profesionales/29.jpg"></div>'+
-    	'<div class="item parent 1" data-slide-number="26"><img alt="" title="" src="images/profesionales/30.jpg"></div>'+
-
     	'</div></div>'+
 
     	'<div id="Carousel1" class="carousel slide"><!-- Carousel items --><div class="carousel-inner"><div class="item active"><div class="row">'+
@@ -58,7 +56,7 @@ function proffesionalSection(){
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-4" onclick="changePhoto(id,1)"><img src="images/profesionales/5.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-5" onclick="changePhoto(id,1)"><img src="images/profesionales/6.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-6" onclick="changePhoto(id,1)"><img src="images/profesionales/7.jpg" alt="Image" style="max-width:100%;"></a></div>'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-7" onclick="changePhoto(id,1)"><img src="images/profesionales/18.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-7" onclick="changePhoto(id,1)"><img src="images/profesionales/30.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'<div class="item"><div class="row">'+
@@ -88,10 +86,9 @@ function proffesionalSection(){
 		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-23" onclick="changePhoto(id,1)"><img src="images/profesionales/27.jpg" alt="Image" style="max-width:100%;"></a></div>'+
 		'</div><!--.row-->'+
 		'</div><!--.item-->'+'<div class="item"><div class="row">'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-24" onclick="changePhoto(id,1)"><img src="images/profesionales/28.jpg" alt="Image" style="max-width:100%;"></a></div>'+		'</div><!--.row-->'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-25" onclick="changePhoto(id,1)"><img src="images/profesionales/29.jpg" alt="Image" style="max-width:100%;"></a></div>'+		'</div><!--.row-->'+
-		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-26" onclick="changePhoto(id,1)"><img src="images/profesionales/30.jpg" alt="Image" style="max-width:100%;"></a></div>'+		'</div><!--.row-->'+
-
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-24" onclick="changePhoto(id,1)"><img src="images/profesionales/28.jpg" alt="Image" style="max-width:100%;"></a></div>'+
+		'<div class="col-xs-3 img-responsive"><a class="thumbnail" id="carousel-selector-25" onclick="changePhoto(id,1)"><img src="images/profesionales/29.jpg" alt="Image" style="max-width:100%;"></a></div>'+		
+		'</div><!--.row-->'+
 		'</div><!--.item-->'+
 		'</div><!--.carousel-inner-->'+
 		'<a data-slide="prev" href="#Carousel1" class="left carousel-control">'+

@@ -2506,8 +2506,8 @@
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/header_cookies.jpg");
-		background-position: center;
+		background-image: url("images/top-3200.svg"), url("images/header.jpg");
+		background-position: center top;
 		background-size: cover;
 		background-repeat: repeat-x,						no-repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2823,9 +2823,9 @@
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/header_cookies.jpg");
+				background-image: url("images/top-1600.svg"), url("images/header.jpg");
 				background-size: cover;
-				background-position: center;
+				background-position: center top;
 				padding: 6em 0 12em 0;
 			}
 
@@ -2986,10 +2986,9 @@
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/header_cookies.jpg");
-				/*background-size: 1280px 184px,						auto,							cover;*/
+				background-image: url("images/top-1280.svg"), url("images/header.jpg");
 				background-size: cover;
-				background-position: center;
+				background-position: center top;
 				padding: 3em 0 7em 0;
 			}
 
