@@ -16,7 +16,7 @@ function changePhoto(id,n){
 }
 
 function proffesionalSection(){
-	$("#centerBox").html('<div class="container" id="carouselDiv" style="padding-top:10%;"><div class="col-md-8"><div class="big-carousel slide article-slide" id="article-photo-carousel">'+
+	$("#centerBox").html('<div class="container" id="carouselDiv" style="padding-top:10%;"><div class="col-md-8 c"><div class="big-carousel slide article-slide" id="article-photo-carousel">'+
 		'<!-- Wrapper for slides --><div class="carousel-inner cont-slider">'+
 		'<div class="item parent active" id="itemActive0" data-slide-number="0"><img alt="" title="" src="images/profesionales/1.jpg"></div>'+
 		'<div class="item parent 1" data-slide-number="1"><img alt="" title="" src="images/profesionales/17.jpg"></div>'+
@@ -125,7 +125,7 @@ function proffesionalSection(){
   		interval: false
 	});
 	if($(window).width() < 680){
-		$('#article-photo-carousel').css("margin-left","5%")
+		$('.c').css("margin-left","5%")
 		$('.left').css({"margin-left":"-5%","margin-top":"-3%"})
 		$('.right').css({"margin-right":"-5%","margin-top":"-3%"})
 	}
@@ -134,7 +134,7 @@ function proffesionalSection(){
 function individualSection(){
 	$("#centerBox").html(
 
-		'<div class="container" id="carouselDiv" style="padding-top:7%;"><div class="col-md-8"><div class="big-carousel-3 slide article-slide" id="article-photo-carousel">'+
+		'<div class="container" id="carouselDiv" style="padding-top:7%;"><div class="col-md-8 c"><div class="big-carousel-3 slide article-slide" id="article-photo-carousel">'+
 		'<!-- Wrapper for slides --><div class="carousel-inner cont-slider">'+
 		'<div class="item parent active" id="itemActive0" data-slide-number="0"><img alt="" title="" src="images/particulares/empanadas/1.jpg"></div>'+
 		'<div class="item parent 1" data-slide-number="1"><img alt="" title="" src="images/particulares/empanadas/2.jpg"></div>'+
@@ -224,7 +224,7 @@ function individualSection(){
 '</p>'+
 '</div>'+
 '</div>'+
-'<div class="col-md-8">'+
+'<div class="col-md-8 c">'+
 '<div class="big-carousel-2 slide article-slide" id="article-photo-carousel" style="margin-top:-5%;">'+
 '<!-- Wrapper for slides -->'+
 '<div class="carousel-inner cont-slider">'+
@@ -598,7 +598,7 @@ function individualSection(){
 	});
 
 	if($(window).width() < 680){
-		$('#article-photo-carousel').css("margin-left","5%")
+		$('.c').css("margin-left","5%")
 		$('.left').css({"margin-left":"-13%","margin-top":"-5%"})
 		$('.right').css({"margin-right":"-13%","margin-top":"-5%"})
 	}

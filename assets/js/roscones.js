@@ -10,4 +10,9 @@ $(document).ready(function() {
 	if($(window).width() < 680){
 		$('.c').css("margin-left","5%")
 	}
+	console.log($(window).width())
+	if($(window).width() > 550 && $(window).width() < 900){
+		$("#indvButtonDiv").css("margin-left","25%")
+		$("#profButtonDiv").css("margin-left","25%")	
+	}
 });
