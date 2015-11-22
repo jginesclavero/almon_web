@@ -8,6 +8,6 @@ $(document).ready(function() {
 	});
 
 	if($(window).width() < 680){
-		$('#article-photo-carousel').css("margin-left","5%")
+		$('.c').css("margin-left","5%")
 	}
 });
