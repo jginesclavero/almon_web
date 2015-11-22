@@ -125,6 +125,7 @@ function proffesionalSection(){
   		interval: false
 	});
 	if($(window).width() < 680){
+		$('#article-photo-carousel').css("margin-left","5%")
 		$('.left').css({"margin-left":"-5%","margin-top":"-3%"})
 		$('.right').css({"margin-right":"-5%","margin-top":"-3%"})
 	}
@@ -597,6 +598,7 @@ function individualSection(){
 	});
 
 	if($(window).width() < 680){
+		$('#article-photo-carousel').css("margin-left","5%")
 		$('.left').css({"margin-left":"-13%","margin-top":"-5%"})
 		$('.right').css({"margin-right":"-13%","margin-top":"-5%"})
 	}
